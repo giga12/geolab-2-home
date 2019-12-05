@@ -489,8 +489,8 @@ body{
   to {opacity: 1}
 }
 .product-slider-img{
-	width: 22px;
-	height: 22px;
+	width: 22%;
+	height: 22%;
 	margin-left: 8%;
 	cursor: pointer;
 }
@@ -511,7 +511,7 @@ body{
 .product-slider-img-p-3{
 	position: absolute;
 	width: 300px;
-	margin-left: 76.5%;
+	margin-left: 73.5%;
 	font-size: 20px;
 	margin-top: -10px
 }
@@ -628,6 +628,3 @@ body{
 		margin-left: 0
 	}
 }
-
-
-
