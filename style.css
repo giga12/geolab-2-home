@@ -96,6 +96,12 @@ body{
 	font-family: 'Roboto', sans-serif;
 
 }
+.product-title{
+	margin-top: -4px;
+	outline: none !important;
+	text-decoration: none !important;
+}
+
 .product{
 	width: 100%;
 	height: 100%;
@@ -106,11 +112,13 @@ body{
 	font-size: 25px;
 	border:none;
 	cursor: pointer;
-	color: #291C4F;
+	color: #291C4F ;
+   	text-decoration: none !important;
+  	outline: none !important;
 }
 .product:after{
 	display: inline-block;
-	margin-top: -15px;
+	margin-top: 4px;
     margin-left: .255em;
     vertical-align: .255em;
     content: "";
@@ -121,6 +129,14 @@ body{
 }
 .product:hover{
 	background-color: #291C4F;
+	color: white
+}
+.product-a{
+	text-decoration: none !important;
+  	outline: none !important;
+  	color: #291C4F
+}
+.product-a:hover{
 	color: white
 }
 .services{
@@ -134,10 +150,14 @@ body{
 	font-size: 25px;
 	cursor: pointer;
 	color: #291C4F;
+	text-decoration: none;
 }
-.services:hover{
-	font-color: white;
+#services:hover{
+	color: white;
 	background-color: #291C4F;
+}
+#services{
+	color: #291C4F;
 }
 .dropdown {
   position: relative;
@@ -160,9 +180,6 @@ body{
 	opacity: 0.5;
 	font-family: 'Roboto', sans-serif;
 }
-.product-title{
-	margin-top: -5px;
-}
 .products{
 	border:none;
 	font-size: 18px;
@@ -173,7 +190,7 @@ body{
 	display: flex;
 	justify-content: flex-end;
 	margin-right: -20px;
-	padding-right: 50px
+	padding-right: 50px;
 }
 .products:hover{
 	opacity: 1;
@@ -191,6 +208,7 @@ body{
     transform: rotate(45deg);
     cursor: pointer;
 }
+
 
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -741,10 +759,6 @@ body{
 	.slider-img-div{
 	height: 650px;
 }
-
-
-
-
 
 
 
