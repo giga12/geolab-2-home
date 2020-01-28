@@ -1,18 +1,16 @@
-
 body{
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
-.header-mum{
-	width: 100%;
-	display: flex;
-	justify-content: center;
+.everything{
+	max-width: 1280px
 }
+
 .header{
 	width: 100%;
-	max-width: 1900px;
-	height: 75px;
+	max-width: 1280px;
+	height: 70px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -20,34 +18,50 @@ body{
 	position: fixed;
 	background-color: white;
 	z-index: 9999999;
-	border-bottom: #caccd5 1px solid;
 
 }
+.header-line{
+	width: 100%;
+	height: 1px;
+	margin-top: 70px;
+	position: fixed;
+	z-index: 9999999;
+	background-color: #caccd5;
+}
 .logo-mum{
-	width: 180px;
-	height: 75px;
+	width: 160px;
+	height: 68px;
 	margin-left: 5%;
+	margin-top: 5px;
 }
 .logo{
 	width: 95%;
 }
 .nav{
-	width: 40%;
+	width: 80%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 18px;
-	margin-right: 3%;
+	font-size: 14px;
+	margin-right: -19.2%
 }
 .li{
 	color: #291c4f;
 	cursor: pointer;
+	outline: none !important;
+	text-decoration: none !important;
+	margin-top: 10px
 }
 .line{
 	width: 2px;
-	height: 35px;
+	height: 25px;
 	background-color: #2a1c50;
 	display: inline-block;
+	margin-top: 5px
+}
+.search-input{
+	width: 200px;
+	height: 25px
 }
 .biling{
 	width: 30%;
@@ -56,17 +70,19 @@ body{
 	margin-left: -20px
 }
 .bil-mum{
-	width: 35px;
+	width: 28px;
 	height: 35px;
 	margin-left: 30px
 }
 .bil{
-	width: 100%;
+	width: 90%;
+	margin-top: 5px
 }
 .number{
-	width: 35px;
-	height: 35px;
+	width: 25px;
+	height: 25px;
 	margin-left: 20px;
+	margin-top: 7px;
 	border:solid #2a1c50 0.5px;
 	display: flex;
 	justify-content: center;
@@ -77,15 +93,20 @@ body{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	margin-top: -6px;
 	font-family: 'Roboto', sans-serif;
+	position: fixed;
+	z-index: 9999999;
 }
 .product-service{
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1280px;
 	display: flex;
 	justify-content: flex-end;
 	height: 30px;
-	margin-top: 76px
+	font-family: 'Roboto', sans-serif;
+	margin-top: 77px;
+
 }
 .dropdown{
 	width: 25%;
@@ -103,8 +124,9 @@ body{
 }
 
 .product{
-	width: 100%;
+	width: 337px;
 	height: 100%;
+	margin-left: -16px;
 	background-color: #caccd5;
 	display: flex;
 	justify-content: center;
@@ -140,10 +162,11 @@ body{
 	color: white
 }
 .services{
-	width: 25%;
+	width: 337px;
 	height: 30px;
 	background-color: #caccd5;
-	margin-right: 7%;
+	margin-right: 5%;
+	margin-left: 1px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -256,8 +279,8 @@ body{
 }
 
 .slider-img-div{
-	height: 550px;
-	margin-top: 1px;
+	height: 320px;
+	margin-top: 102px;
 }
 .slider-img{
 	height: 100%;
@@ -265,19 +288,18 @@ body{
 .carousel{
 	z-index: -1;
 }
-.carousel-inner{
-	max-width: 1900px
-}
 .carousel-mum{
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
-.carousel-control-prev{
-	margin-top: 290px
+.carousel-control-prev-icon{
+	zoom: 250%;
+	margin-top:-35px;
 }
-.carousel-control-next{
-	margin-top: 290px
+.carousel-control-next-icon{
+	zoom: 250%;
+	margin-top:-35px;
 }
 .about-mum{
 	display: flex;
@@ -288,18 +310,18 @@ body{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 100px;
-	max-width: 1400px;
+	max-width: 1280px;
 	font-family: 'Roboto', sans-serif;
 }
 .solution{
-	width: 26%;
-	border:solid 3px #291C4F;
-	border-radius: 8%;
+	width: 340px;
+	border:solid 2px #291C4F;
 	height: 300px;
 	display: flex;
 	flex-direction: column;
 	background-color: #F1F2F2;
 	font-family: 'Roboto', sans-serif;
+	margin-left: -25%
 }
 .solution-img-div{
 	width: 80%;
@@ -325,9 +347,8 @@ body{
 	color: #291C4F;
 }
 .portfolio{
-	width: 20%;
-	border:solid 3px #291C4F;
-	border-radius: 8%;
+	width: 260px;
+	border:solid 2px #291C4F;
 	height: 300px;
 	display: flex;
 	flex-direction: column;
@@ -362,15 +383,15 @@ body{
 	color: #291C4F; 
 }
 .import{
-	width: 15%;
-	border:solid 3px #291C4F;
-	border-radius: 8%;
+	width: 230px;
+	border:solid 2px #291C4F;
 	height: 300px;
 	background-color: #F1F2F2;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	font-family: 'Roboto', sans-serif;
+	margin-right: -25%
 }
 .import-img-div{
 	width: 100%;
@@ -415,7 +436,7 @@ body{
 	justify-content: space-around;
 	background-color: #291C4F;
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1280px;
 	height: 250px;
 	font-family: 'Roboto', sans-serif;
 }
@@ -441,6 +462,7 @@ body{
 .news-title{
 	font-size: 20px;
 	color: red;
+	margin-top: 30px
 }
 .news-line{
 	width: 90%;
@@ -468,7 +490,7 @@ body{
 	justify-content: space-around;
 	height: 200px;
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1280px;
 	margin-top: 30px
 }
 .diagram-img-div{
@@ -615,46 +637,53 @@ body{
 .product-slider-img-p-1{
 	position: absolute;
 	width: 300px;
-	margin-left: 13.5%;
+	margin-left: 12.5%;
 	font-size: 20px;
-	margin-top: -10px
+	margin-top: -10px;
+	font-family: 'Open Sans', sans-serif;
 } 
 .product-slider-img-p-2{
 	position: absolute;
 	width: 300px;
-	margin-left: 43.5%;
+	margin-left: 42%;
 	font-size: 20px;
-	margin-top: -10px
+	margin-top: -10px;
+	font-family: 'Open Sans', sans-serif;
 }
 .product-slider-img-p-3{
 	position: absolute;
 	width: 300px;
-	margin-left: 73.5%;
+	margin-left: 71.5%;
 	font-size: 20px;
-	margin-top: -10px
+	margin-top: -10px;
+	font-family: 'Open Sans', sans-serif;
 }
 .product-slider-img-p-4{
 	position: absolute;
 	width: 300px;
-	margin-left: 10%;
+	margin-left: 9%;
 	font-size: 20px;
-	margin-top: -10px
+	margin-top: -10px;
+	font-family: 'Open Sans', sans-serif;
 } 
 .product-slider-img-p-5{
 	position: absolute;
 	width: 300px;
-	margin-left: 40%;
+	margin-left: 39%;
 	font-size: 20px;
-	margin-top: -10px
+	margin-top: -10px;
+	font-family: 'Open Sans', sans-serif;
 }
 .product-slider-img-p-6{
 	position: absolute;
 	width: 340px;
-	margin-left: 70%;
+	margin-left: 65%;
 	font-size: 20px;
-	margin-top: -10px
+	margin-top: -10px;
+	font-family: 'Open Sans', sans-serif;
 }
 .footer{
+	max-width: 1280px;
 	width: 100%;
 	height: 180px;
 	margin-top: 50px;
@@ -717,21 +746,28 @@ body{
 	flex-direction: column;
 	margin-top: 2%
 }
-.footer-contact-line{
-	width: 2px;
-	height: 16px;
+.footer-contact-dot{
+	width: 4px;
+	height: 4px;
 	background-color: #291C4F;
+	margin-top: 7px;
 }
 .numbers{
 	display: flex;
 	justify-content: space-around;
-	width: 63%;
+	width: 70%;
 	color: #291C4F;
+}
+.footer-contact-dot-1{
+	width: 4px;
+	height: 4px;
+	background-color: #291C4F;
+	margin-top: 8px
 }
 .mails{
 	display: flex;
 	justify-content: space-around;
-	width: 51%;
+	width: 55%;
 	color: #291C4F;
 }
 .footer-contact-title{
@@ -747,17 +783,49 @@ body{
 		margin-left: 0
 	}
 }
-@media screen and (min-width: 1400px){
-	.carousel-control-prev{
-		margin-top: 350px;
-	}	
-	.carousel-control-next{
-		margin-top: 350px;
+@media screen and (min-width: 1450px){
+	.carousel-control-prev-icon{
+		margin-left: 40%
+	}
+	.carousel-control-next-icon{
+		margin-right: 40%
 	}
 }
-@media screen and (min-width: 1700px){
-	.slider-img-div{
-	height: 650px;
+@media screen and (min-width: 1600px){
+	.carousel-control-prev-icon{
+		margin-left: 80%
+	}
+	.carousel-control-next-icon{
+		margin-right: 80%
+	}
+}
+@media screen and (min-width: 1750px){
+	.carousel-control-prev-icon{
+		margin-right: -40%;
+		margin-top: 0
+	}
+	.carousel-control-next-icon{
+		margin-left: -40%;
+		margin-top: 0
+	}
+}
+@media screen and (min-width: 1850px){
+	.carousel-control-prev-icon{
+		margin-right: -60%;
+	}
+	.carousel-control-next-icon{
+		margin-left: -60%;
+	}
+}
+@media screen and (min-width: 1950px){
+	.carousel-control-prev-icon{
+		margin-right: -90%;
+		margin-top: -100px
+	}
+	.carousel-control-next-icon{
+		margin-left: -90%;
+		margin-top: -100px
+	}
 }
 
 
